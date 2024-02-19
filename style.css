@@ -1,0 +1,149 @@
+/* Author: Ramazantk3 */
+body{
+  background-color: #f8b80a;
+  font-family:sans-serif;
+}
+.container{
+    width: 75%;
+    height:700px;
+    background-color: #7f3f00;
+    max-width: 650px;
+    max-height: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+.display{
+    position:relative;
+    top: 15px;
+    height: 100px;
+    width: 95%;
+    padding:0;
+    margin:0 auto;
+    background-color: #000d30;
+    color: #c6c6c6;
+}
+.displayText{
+    top:15px;
+    margin:0;
+    padding:0;
+    position:relative;
+    display:inline-block;
+    height:100%;
+    width:100%;
+    right:15px;
+    font-size: 65px;
+    text-align:right;
+    /*margin-top:20px;*/
+}
+.function{
+    left:15px;
+    margin:0;
+    padding:0;
+    display:inline-block;
+    position:absolute;
+    text-align: left;
+    margin-bottom: 15px;
+    height: 15%;
+    width: 10%;
+    font-size: 50px;
+}
+.buttons{
+    position:relative;
+    width:100%;
+}
+.substract{
+    background-color: #ffffff;
+    position:relative;
+    margin-left:7.5%;
+    top:30px;
+    margin-top:25px;
+    height:90px;
+    border: 0;
+    font-size: 40px;
+
+}
+.sum{
+    background-color: #ffffff;
+    position:relative;
+    margin-left:2px;
+    top:30px;
+    margin-top:25px;
+    height:90px;
+    width:100px;
+    border: 0;
+    font-size: 40px;
+}
+.multiply{
+    background-color: #ffffff;
+    position:relative;
+    top:30px;
+    margin-top:25px;
+    margin-left:2px;
+    height:90px;
+    width:100px;
+    border: 0;
+    font-size: 40px;
+  }
+  .divide{
+    background-color: #ffffff;
+    position:relative;
+    top:30px;
+    margin-top:25px;
+    margin-left:2px;
+    height:90px;
+    width:100px;
+    border: 0;
+    font-size: 40px;
+  }
+.clear{
+    display:inline-block;
+    background-color: #ff0000;
+    color:#000;
+    position:relative;
+    padding:0;
+    margin-left:2px;
+    top:36px;
+    margin-top:25px;
+    margin-right:7.5%;
+    height:90px;
+    width:100px;
+    border: 0;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.bttn{
+    box-sizing: border-box;
+    width: 15%;
+    height:90px;
+}
+.numbers{
+    box-sizing: border-box;
+    width:80%;
+    height:80%;
+    margin:auto;
+    position:relative;
+    width:100%;
+    margin-left:21%;
+    margin-top: 5px;
+}
+.number{
+    background-color: #ffffff;
+    position:relative;
+    margin-left:3.33%;
+    top:30px;
+    margin-top:5px;
+    margin-bottom:8px;
+    padding:0;
+    height:90px;
+    width:16%;
+    font-size: 40px;
+    border:0;
+}
+.zero{
+    margin-left:22.5%;
+}
+.number:active,.substract:active,.sum:active,.multiply:active,.divide:active{
+    background-color:#7f3f00;
+    border: solid 2px #000;
+}
